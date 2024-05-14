@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:padding="24dp">
+
+<TextView
+android:id="@+id/tvBioData"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="BIO DATA"
+android:textColor="#FFFFFF"
+
+    android:textStyle="bold"
+    android:textSize="24sp"
+    android:fontFamily="sans-serif-light"
+    android:gravity="center"
+    android:layout_marginTop="16dp"
+    android:padding="10dp"
+    android:background="#3F51B5"
+    android:textAllCaps="true"/>
+
+<ImageView
+android:id="@+id/ivProfilePic"
+android:layout_width="120dp"
+android:layout_height="120dp"
+android:src="@drawable/girl"
+    android:layout_below="@id/tvBioData"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="24dp"/>
+
+    <!-- Name TextView -->
+<TextView
+android:id="@+id/tvName"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/ivProfilePic"
+android:text="Name: K Nalini"
+android:gravity="center"
+android:textSize="20sp"
+android:textColor="#212121"
+android:layout_marginTop="8dp"/>
+
+    <!-- Mobile Number TextView -->
+<TextView
+android:id="@+id/tvMobileNo"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvName"
+android:text="Mobile No: 987654321"
+android:gravity="center"
+android:textSize="20sp"
+android:textColor="#212121"
+android:layout_marginTop="8dp"/>
+
+    <!-- Email TextView -->
+<TextView
+android:id="@+id/tvEmail"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvMobileNo"
+android:text="Email ID: nalinik@gmail.com"
+android:gravity="center"
+android:textSize="20sp"
+android:textColor="#212121"
+android:layout_marginTop="8dp"/>
+
+    <!-- Date of Birth TextView -->
+<TextView
+android:id="@+id/tvDateOfBirth"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvEmail"
+android:text="Date Of Birth: 09-08-2004"
+android:gravity="center"
+android:textSize="20sp"
+android:textColor="#212121"
+android:layout_marginTop="8dp"/>
+
+    <!-- Religion TextView -->
+<TextView
+android:id="@+id/tvReligion"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvDateOfBirth"
+android:text="Religion: Hindu"
+android:gravity="center"
+android:textSize="20sp"
+android:textColor="#212121"
+android:layout_marginTop="8dp"/>
+
+    <!-- Nationality TextView -->
+<TextView
+android:id="@+id/tvNationality"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvReligion"
+android:text="Nationality: Indian"
+android:gravity="center"
+android:textSize="20sp"
+android:textColor="#212121"
+android:layout_marginTop="8dp"/>
+
+    <!-- Father's Name TextView -->
+<TextView
+android:id="@+id/tvFatherName"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvNationality"
+android:text="Father Name: K.Venkata Narayana"
+android:gravity="center"
+android:textSize="20sp"
+android:textColor="#212121"
+android:layout_marginTop="8dp"/>
+
+    <!-- Mother's Name TextView -->
+<TextView
+android:id="@+id/tvMotherName"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvFatherName"
+android:text="Mother Name: K.Kotirathnam"
+android:gravity="center"
+android:textSize="20sp"
+android:textColor="#212121"
+android:layout_marginTop="8dp"/>
+
+    <!-- Qualification TextView -->
+<TextView
+android:id="@+id/tvQualification"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/tvMotherName"
+android:text="Qualification: B.Tech-AIML"
+android:gravity="center"
+android:textSize="20sp"
+android:textColor="#212121"
+android:layout_marginTop="8dp"/>
+
+    </RelativeLayout>

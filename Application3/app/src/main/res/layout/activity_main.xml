@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#87ceeb"
+    android:gravity="center">
+    <!-- Title for the book catalog -->
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Catalog"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Static list of books -->
+
+    <!-- Book 1 -->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- ImageView for the book cover -->
+        <ImageView
+            style="@style/BookCoverImage"
+            android:id="@+id/philosophers_stone_cover"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/philosophers_stone"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- TextView for the book title -->
+        <TextView
+            style="@style/PhilosophersStoneTitleText"
+            android:id="@+id/philosophers_stone_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/philosophers_stone_cover"
+            android:text="Harry Potter and the Philosopher's Stone"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignTop="@id/philosophers_stone_cover"
+            />
+
+        <!-- TextView for the book author -->
+        <TextView
+            style="@style/PhilosophersStoneAuthorText"
+            android:id="@+id/philosophers_stone_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/philosophers_stone_cover"
+            android:layout_below="@id/philosophers_stone_title"
+            android:text="J. K. Rowling"
+            android:textSize="14sp"/>
+
+        <!-- Additional TextViews for book details like genre, rating, etc. -->
+    </RelativeLayout>
+
+    <View style="@style/Divider"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- ImageView for the book cover -->
+        <ImageView
+            android:id="@+id/chamber_of_secrets_cover"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/chamber_of_secrets"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- TextView for the book title -->
+        <TextView
+            style="@style/ChamberOfSecretsText"
+            android:id="@+id/chamber_of_secrets_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/chamber_of_secrets_cover"
+            android:text="Harry Potter and the Chamber of Secrets"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignTop="@id/chamber_of_secrets_cover"
+            />
+
+        <!-- TextView for the book author -->
+        <TextView
+            style="@style/ChamberOfSecretsAuthorText"
+            android:id="@+id/chamber_of_secrets_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/chamber_of_secrets_cover"
+            android:layout_below="@id/chamber_of_secrets_title"
+            android:text="J. K. Rowling"
+            android:textSize="14sp"/>
+
+        <!-- Additional TextViews for book details like genre, rating, etc. -->
+    </RelativeLayout>
+
+    <View style="@style/Divider"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- ImageView for the book cover -->
+        <ImageView
+            android:id="@+id/order_of_phoenix_cover"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/order_of_phoenix"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- TextView for the book title -->
+        <TextView
+            android:id="@+id/order_of_phoenix_title"
+            style='@style/OrderOfPhoenixText'
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/order_of_phoenix_cover"
+            android:text="Harry Potter and the Order of the Phoenix"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignTop="@id/order_of_phoenix_cover"
+            />
+
+        <!-- TextView for the book author -->
+        <TextView
+            style="@style/OrderOfPhoenixAuthorText"
+            android:id="@+id/order_of_phoenix_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/order_of_phoenix_cover"
+            android:layout_below="@id/order_of_phoenix_title"
+            android:text="J. K. Rowling"
+            android:textSize="14sp"/>
+
+        <!-- Additional TextViews for book details like genre, rating, etc. -->
+    </RelativeLayout>
+    <!-- You will define the item_book.xml with the layout for a single book item -->
+
+
+</LinearLayout>

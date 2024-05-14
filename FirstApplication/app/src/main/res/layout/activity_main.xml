@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/new1"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:padding="2dp"
+        android:elevation="4dp"/>
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Swaroop Nanda"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+    android:shadowColor="#BBFFFFFF"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:shadowRadius="8"/>
+
+    <!-- Profession -->
+    <TextView
+        android:id="@+id/profession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="VFSTR Student"
+        android:textSize="18sp"
+        android:textColor="#424242"
+    android:textStyle="italic"/>
+
+    <!-- GitHub Profile Link -->
+    <TextView
+        android:id="@+id/github_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profession"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="GitHub: github.com/AssasinThe1"
+        android:textSize="16sp"
+        android:textColor="#212121"/>
+
+    <!-- Contact Email -->
+    <TextView
+        android:id="@+id/contact_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/github_link"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Email: swaroopnanda7@gmail.com"
+        android:textSize="16sp"
+        android:textColor="#212121"/>  <!-- Dark color for consistency -->
+
+    <!-- Bio -->
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_email"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="I am a student of Vignan's Foundation for Science, Technology  Research. I am currently pursuing my B.Tech in Computer Science  Engineering. I am a passionate Android Developer and I love to code."
+        android:textSize="16sp"
+        android:textColor="#263238"
+    android:padding="16dp"/>
+
+    <!-- Skills Section -->
+    <LinearLayout
+        android:id="@+id/skills_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bio"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"> <!-- Transparent background -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#212121"/>  <!-- Dark color to match the name -->
+
+        <!-- You can repeat this block for each skill -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Deep Learning"
+            android:textSize="16sp"
+            android:textColor="#212121"
+        android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Python Java"
+            android:textSize="16sp"
+            android:textColor="#212121"
+        android:layout_marginTop="4dp"/>
+
+        <!-- Add more skills here -->
+    </LinearLayout>
+
+    <!-- Footer -->
+    <RelativeLayout
+        android:id="@+id/footer_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/skills_section"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"> <!-- Transparent background -->
+
+        <TextView
+            android:id="@+id/thank_you_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thank you for visiting my profile!"
+            android:textSize="14sp"
+            android:textColor="#212121"
+        android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thank_you_message"
+            android:text="© 2024 by Swaroop Nanda. All rights reserved."
+            android:textSize="12sp"
+            android:textColor="#212121"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StylishText">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="BookCoverImage">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+    <style name="PhilosophersStoneAuthorText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#B8860B</item> <!-- Dark Goldenrod -->
+    </style>
+
+    <style name="ChamberOfSecretsAuthorText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#3CB371</item> <!-- Medium Sea Green -->
+    </style>
+
+    <style name="OrderOfPhoenixAuthorText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#CD5C5C</item> <!-- Indian Red -->
+    </style>
+
+
+    <style name="PhilosophersStoneTitleText">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#DAA520</item> <!-- Golden Color -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#8B0000</item> <!-- Dark Red Shadow -->
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="ChamberOfSecretsText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#2E8B57</item> <!-- Sea Green Color -->
+        <item name="android:shadowColor">#C0C0C0</item> <!-- Silver Shadow -->
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="OrderOfPhoenixText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FF4500</item> <!-- Orange-Red Color -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#800000</item> <!-- Maroon Shadow for Depth -->
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+</resources>
